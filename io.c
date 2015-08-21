@@ -10,7 +10,7 @@ unsigned io_ask()
    printf ("Enter a number (0 to stop program): ");
    if ((amount = scanf("%u", &val)) <= 0)
    {
-      val = 0
+      val = 0;
    }
    return val;
 }
